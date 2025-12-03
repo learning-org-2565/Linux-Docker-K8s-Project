@@ -1,0 +1,15 @@
+# Step 1: Install Docker (2 min)
+sudo yum install -y docker
+sudo systemctl start docker
+sudo usermod -aG docker ec2-user
+newgrp docker
+
+# Step 2: Clone YOUR project (10 seconds!)
+git clone https://github.com/learning-org-2565/Linux-Docker-K8s-Project.git
+cd Linux-Docker-K8s-Project
+
+# Step 3: Build and run (30 seconds!)
+docker build -t my-first-dockerimage:v1 .
+docker run -d -p 8000:5000 --name my-app my-first-dockerimage:v1
+
+# Done! Your app is running! íº€
