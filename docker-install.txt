@@ -1,4 +1,4 @@
-# Step 1: Install Docker (2 min)
+# Step 1: Install Docker ()
 sudo yum install -y docker
 sudo systemctl start docker
 sudo usermod -aG docker ec2-user
