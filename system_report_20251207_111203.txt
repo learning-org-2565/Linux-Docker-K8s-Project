@@ -1,0 +1,9 @@
+=====================================
+    SYSTEM INFORMATION REPORT
+=====================================
+
+Generated on: Sun Dec  7 11:12:03 UTC 2025
+Hostname: ip-172-31-24-120.ap-southeast-1.compute.internal
+Current User: ec2-user
+Uptime: up 20 minutes
+

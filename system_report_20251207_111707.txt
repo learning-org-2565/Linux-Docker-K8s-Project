@@ -1,0 +1,18 @@
+=====================================
+    SYSTEM INFORMATION REPORT
+=====================================
+
+Generated on: Sun Dec  7 11:17:07 UTC 2025
+Hostname: ip-172-31-24-120.ap-southeast-1.compute.internal
+Current User: ec2-user
+Uptime: up 26 minutes
+
+=======Disk usage========
+Filesystem      Size  Used Avail Use% Mounted on
+devtmpfs        4.0M     0  4.0M   0% /dev
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           192M  468K  191M   1% /run
+/dev/xvda1      8.0G  2.0G  6.1G  25% /
+tmpfs           479M     0  479M   0% /tmp
+/dev/xvda128     10M  1.3M  8.7M  13% /boot/efi
+tmpfs            96M     0   96M   0% /run/user/1000
