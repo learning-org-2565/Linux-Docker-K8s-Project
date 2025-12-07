@@ -1,0 +1,22 @@
+total 72
+drwxr-xr-x. 3 ec2-user ec2-user 16384 Dec  7 05:58 .
+drwx------. 5 ec2-user ec2-user   142 Dec  7 05:09 ..
+drwxr-xr-x. 7 ec2-user ec2-user   169 Dec  7 02:29 .git
+-rw-r--r--. 1 ec2-user ec2-user   151 Dec  7 01:05 Dockerfile
+-rw-r--r--. 1 ec2-user ec2-user   303 Dec  7 01:05 app.py
+-rw-r--r--. 1 ec2-user ec2-user    60 Dec  7 02:52 both.txt
+-rw-r--r--. 1 ec2-user ec2-user   458 Dec  7 01:05 docker-install.txt
+-rw-r--r--. 1 ec2-user ec2-user    60 Dec  7 02:51 error.txt
+-rwxr-xr-x. 1 ec2-user ec2-user   436 Dec  7 01:14 error_codes_test.sh
+-rw-r--r--. 1 ec2-user ec2-user    60 Dec  7 03:07 error_correct.txt
+-rw-r--r--. 1 ec2-user ec2-user     0 Dec  7 03:04 error_wrong.txt
+-rwxr-xr-x. 1 ec2-user ec2-user     0 Dec  7 06:08 file.txt
+-rw-r--r--. 1 ec2-user ec2-user   199 Dec  7 04:48 files.txt
+-rwxr-xr-x. 1 ec2-user ec2-user    58 Dec  7 02:29 git-push.sh
+-rwxr-xr-x. 1 ec2-user ec2-user   147 Dec  7 06:07 multiple-lines.sh
+-rw-r--r--. 1 ec2-user ec2-user     0 Dec  7 02:50 output.txt
+-rw-r--r--. 1 ec2-user ec2-user    13 Dec  7 01:05 requirements.txt
+-rw-r--r--. 1 ec2-user ec2-user    14 Dec  7 02:44 test.txt
+-rw-r--r--. 1 ec2-user ec2-user     3 Dec  7 02:58 test1.txt
+-rw-r--r--. 1 ec2-user ec2-user     3 Dec  7 03:06 test2.txt
+-rw-r--r--. 1 ec2-user ec2-user     0 Dec  7 03:03 wrong.txt

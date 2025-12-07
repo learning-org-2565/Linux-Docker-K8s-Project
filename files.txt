@@ -1,0 +1,16 @@
+Dockerfile
+app.py
+both.txt
+docker-install.txt
+error.txt
+error_codes_test.sh
+error_correct.txt
+error_wrong.txt
+files.txt
+git-push.sh
+output.txt
+requirements.txt
+test.txt
+test1.txt
+test2.txt
+wrong.txt
