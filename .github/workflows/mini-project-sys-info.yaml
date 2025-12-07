@@ -1,0 +1,24 @@
+# GitHub Actions Workflow (.github/workflows/deploy.yml)
+name: Deploy Application
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Run system checks    # ← YOUR SCRIPT HERE!
+        run: |
+          chmod +x system_info.sh
+          ./system_info.sh
+      
+      - name: Build and Deploy      # ← SHELL SCRIPTING!
+        run: |
+          docker build -t myapp .
+          docker push myapp
+          kubectl apply -f deployment.yaml
