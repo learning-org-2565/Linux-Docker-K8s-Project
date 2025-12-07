@@ -16,6 +16,7 @@ jobs:
         run: |
           chmod +x mini_project1_system_info.sh
           ./mini_project1_system_info.sh
+          cat system_report*.txt
       
       - name: Build and Deploy      # ← SHELL SCRIPTING!
         run: |
