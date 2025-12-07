@@ -14,11 +14,10 @@ jobs:
       
       - name: Run system checks    # ← YOUR SCRIPT HERE!
         run: |
-          chmod +x system_info.sh
-          ./system_info.sh
+          chmod +x mini_project1_system_info.sh
+          ./mini_project1_system_info.sh
       
       - name: Build and Deploy      # ← SHELL SCRIPTING!
         run: |
           docker build -t myapp .
-          docker push myapp
-          kubectl apply -f deployment.yaml
+          
